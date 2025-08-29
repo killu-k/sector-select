@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: sector-db
+    environment:
+      POSTGRES_DB: sector_db
+      POSTGRES_USER: sector_user
+      POSTGRES_PASSWORD: sector1234
+
+    ports:
+      - 5432:5432
+
+  app:
+    build: .
+    container_name: sector-app
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/sector_db
+      SPRING_DATASOURCE_USERNAME: sector_user
+      SPRING_DATASOURCE_PASSWORD: sector1234

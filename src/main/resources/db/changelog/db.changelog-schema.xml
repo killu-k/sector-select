@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <!-- UUID generator extension -->
+    <changeSet author="killuk" id="0">
+        <sql>CREATE EXTENSION IF NOT EXISTS "pgcrypto";</sql>
+    </changeSet>
+
+    <!-- USERS table -->
+    <changeSet author="killuk" id="1">
+        <createTable tableName="users">
+            <column name="id" type="uuid" defaultValueComputed="gen_random_uuid()">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="first_name" type="varchar(255)"/>
+            <column name="last_name" type="varchar(255)"/>
+            <column name="consent" type="boolean" defaultValueBoolean="false"/>
+
+            <!--  Audit rows  -->
+            <column name="created_at" type="timestamp" defaultValueComputed="NOW()"/>
+            <column name="updated_at" type="timestamp"/>
+            <column name="deleted_at" type="timestamp"/>
+        </createTable>
+    </changeSet>
+
+    <!-- SECTORS table -->
+    <changeSet author="killuk" id="2">
+        <createTable tableName="sectors">
+            <column name="id" type="uuid" defaultValueComputed="gen_random_uuid()">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)" />
+            <column name="code" type="varchar(255)" />
+            <column name="parent_id" type="uuid"/>
+
+            <!--  Audit rows  -->
+            <column name="created_at" type="timestamp" defaultValueComputed="NOW()"/>
+            <column name="updated_at" type="timestamp"/>
+            <column name="deleted_at" type="timestamp"/>
+        </createTable>
+    </changeSet>
+
+    <!-- USER_SECTOR table -->
+    <changeSet author="killuk" id="3">
+        <createTable tableName="user_sector">
+            <column name="user_id" type="uuid">
+                <constraints nullable="false"/>
+            </column>
+            <column name="sector_id" type="uuid">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <!-- SECTORS PARENT fk -->
+    <changeSet author="killuk" id="4">
+        <addForeignKeyConstraint
+                baseTableName="sectors"
+                baseColumnNames="parent_id"
+                constraintName="sector_parent_fk"
+                referencedTableName="sectors"
+                referencedColumnNames="id"
+                onDelete="RESTRICT"
+                onUpdate="CASCADE"/>
+    </changeSet>
+
+    <!-- USER_SECTOR pk -->
+    <changeSet author="killuk" id="5">
+        <addPrimaryKey
+                tableName="user_sector"
+                columnNames="user_id, sector_id"
+                constraintName="user_sector_pk"/>
+    </changeSet>
+
+    <!-- USER_SECTOR constraints -->
+    <changeSet author="killuk"  id="6">
+        <addForeignKeyConstraint
+                baseTableName="user_sector"
+                baseColumnNames="user_id"
+                constraintName="user_sector_user_fk"
+                referencedTableName="users"
+                referencedColumnNames="id"
+                onDelete="CASCADE"/>
+    </changeSet>
+
+    <changeSet author="killuk"  id="7">
+        <addForeignKeyConstraint
+                baseTableName="user_sector"
+                baseColumnNames="sector_id"
+                constraintName="user_sector_sector_fk"
+                referencedTableName="sectors"
+                referencedColumnNames="id"
+                onDelete="CASCADE"/>
+    </changeSet>
+
+</databaseChangeLog>

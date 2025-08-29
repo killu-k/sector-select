@@ -1,0 +1,80 @@
+id,name,code,parent_id
+aa3025eb-3e28-44a6-be01-feaf6c01df35,Manufacturing,manufacturing,
+d6ef3b58-e722-477e-a3f0-e32e5bb23837,Service,service,
+f05de94e-7135-4c1b-9d45-86cb98e7d4f6,Other,other,
+84447a0e-b660-46d4-aae3-f1084f9616b2,Construction materials,construction-materials,aa3025eb-3e28-44a6-be01-feaf6c01df35
+21a8885a-8943-4d87-9b8e-54882b3bfff4,Electronics and Optics,electronics-and-optics,aa3025eb-3e28-44a6-be01-feaf6c01df35
+6f97f86d-ba5c-4ecf-bf21-6519301d32d2,Bakery & confectionery products,bakery-confectionery-products,393cc8aa-1986-4226-82f2-31d838151f82
+45fd3708-351e-465e-b560-5b436930fad5,Beverages,beverages,393cc8aa-1986-4226-82f2-31d838151f82
+26d6b11d-4d07-434e-a1cb-5e99b612ea52,Fish & fish products,fish-fish-products,393cc8aa-1986-4226-82f2-31d838151f82
+248f6911-1cea-4336-8fe4-b4afb341c0bf,Meat & meat products,meat-meat-products,393cc8aa-1986-4226-82f2-31d838151f82
+14b9d9eb-1e34-4a92-aaf4-97e8c4ca5003,Milk & dairy products,milk-dairy-products,393cc8aa-1986-4226-82f2-31d838151f82
+0804dbea-1074-47be-a975-841d675bcb2f,Other,other,393cc8aa-1986-4226-82f2-31d838151f82
+aef05425-853f-4690-b621-0baeaa19cc83,Sweets & snack food,sweets-snack-food,393cc8aa-1986-4226-82f2-31d838151f82
+393cc8aa-1986-4226-82f2-31d838151f82,Food and Beverage,food-and-beverage,aa3025eb-3e28-44a6-be01-feaf6c01df35
+6b001586-40e3-40dc-98cf-44beae769e6f,Bathroom/sauna,bathroom-sauna,8ae2b629-d5d5-4508-9645-3d18afe29808
+ced56911-a18c-41b4-90e4-fdc0bf84b2f2,Bedroom,bedroom,8ae2b629-d5d5-4508-9645-3d18afe29808
+66f6a2d1-b6fb-40b7-b9f6-fa4915617220,Children’s room,children-s-room,8ae2b629-d5d5-4508-9645-3d18afe29808
+504110eb-a0fd-49a6-a8b4-56be2b399e45,Kitchen,kitchen,8ae2b629-d5d5-4508-9645-3d18afe29808
+d32ecaec-656f-4757-a11c-1a7c4c8c8d96,Living room,living-room,8ae2b629-d5d5-4508-9645-3d18afe29808
+20ff9b08-68af-4e2a-92ff-17d63e45dde4,Office,office,8ae2b629-d5d5-4508-9645-3d18afe29808
+e97fa1cb-7ad2-46da-bed9-9c2dc641becf,Other (Furniture),other-furniture,8ae2b629-d5d5-4508-9645-3d18afe29808
+88a96b1c-eedf-45de-b34d-5ebe494986b9,Outdoor,outdoor,8ae2b629-d5d5-4508-9645-3d18afe29808
+a05aaeac-478f-4f58-93e0-7747e5b62875,Project furniture,project-furniture,8ae2b629-d5d5-4508-9645-3d18afe29808
+8ae2b629-d5d5-4508-9645-3d18afe29808,Furniture,furniture,aa3025eb-3e28-44a6-be01-feaf6c01df35
+b3124162-6466-4d9f-a23f-56c784f75210,Machinery components,machinery-components,05aef305-296b-4315-9f0b-a1d64abdb38c
+f5b56e5a-7b52-4300-8b7f-eefbdba6dca9,Machinery equipment/tools,machinery-equipment-tools,05aef305-296b-4315-9f0b-a1d64abdb38c
+1f7d5b75-5bcd-4b66-8585-e0e3b7db04b9,Manufacture of machinery,manufacture-of-machinery,05aef305-296b-4315-9f0b-a1d64abdb38c
+febfb283-ae98-44b3-9469-4c569be605b4,Aluminium and steel workboats,aluminium-and-steel-workboats,6cb2cb31-032c-4c0c-a2b9-5537f6f3d532
+7fb2d863-a74c-4c42-98a9-998c0da70b6d,Boat/Yacht building,boat-yacht-building,6cb2cb31-032c-4c0c-a2b9-5537f6f3d532
+cf802654-5edd-452c-aade-4e612360287f,Ship repair and conversion,ship-repair-and-conversion,6cb2cb31-032c-4c0c-a2b9-5537f6f3d532
+6cb2cb31-032c-4c0c-a2b9-5537f6f3d532,Maritime,maritime,05aef305-296b-4315-9f0b-a1d64abdb38c
+87e9dedd-18b1-493f-9acc-4126ff6377ce,Metal structures,metal-structures,05aef305-296b-4315-9f0b-a1d64abdb38c
+57dc6ae3-8be5-4863-80db-8bad77349730,Other,other,05aef305-296b-4315-9f0b-a1d64abdb38c
+80a18935-8aad-4314-b40a-abc7f82d7324,Repair and maintenance service,repair-and-maintenance-service,05aef305-296b-4315-9f0b-a1d64abdb38c
+05aef305-296b-4315-9f0b-a1d64abdb38c,Machinery,machinery,aa3025eb-3e28-44a6-be01-feaf6c01df35
+583bdb96-f740-4364-8d38-fe7d23a444a5,Construction of metal structures,construction-of-metal-structures,cbb6856e-1802-4f0e-9bbd-8e3ef34c3a22
+4d5c804a-1a34-43a8-8d4e-5a2246032ae9,Houses and buildings,houses-and-buildings,cbb6856e-1802-4f0e-9bbd-8e3ef34c3a22
+6fef14ff-d1dc-468b-9240-acbf6239692c,Metal products,metal-products,cbb6856e-1802-4f0e-9bbd-8e3ef34c3a22
+8093e8f6-74ab-4171-a2c6-1063331bbc0c,CNC-machining,cnc-machining,a9afc216-aa7f-4c05-a78d-0b8543eed280
+76e51195-7f54-4a72-9b62-7b0aca9d13d8,"Forgings, Fasteners",forgings-fasteners,a9afc216-aa7f-4c05-a78d-0b8543eed280
+b8734761-d7c8-4d9c-bb87-7970d7657d39,"Gas, Plasma, Laser cutting",gas-plasma-laser-cutting,a9afc216-aa7f-4c05-a78d-0b8543eed280
+2709abef-9ea6-4cc0-9e8b-8ab436a6e5d0,"MIG, TIG, Aluminum welding",mig-tig-aluminum-welding,a9afc216-aa7f-4c05-a78d-0b8543eed280
+a9afc216-aa7f-4c05-a78d-0b8543eed280,Metal works,metal-works,cbb6856e-1802-4f0e-9bbd-8e3ef34c3a22
+cbb6856e-1802-4f0e-9bbd-8e3ef34c3a22,Metalworking,metalworking,aa3025eb-3e28-44a6-be01-feaf6c01df35
+fcc1e9cb-b83d-4975-ae08-40aadd72005d,Packaging,packaging,0383fa41-2ed1-4abd-89ee-c9d122ab25ed
+b11a13d4-011e-453e-a0ea-7bce216337db,Plastic goods,plastic-goods,0383fa41-2ed1-4abd-89ee-c9d122ab25ed
+8fb44f96-f295-4f73-9125-6b19ee626862,Blowing,blowing,9c65b981-ffca-4b5f-be3a-e178d7171652
+4c076fd8-94f1-4767-9cae-b6eb8881470e,Moulding,moulding,9c65b981-ffca-4b5f-be3a-e178d7171652
+34cacb9d-3165-4a73-ab3e-25920eedcc2c,Plastics welding and processing,plastics-welding-and-processing,9c65b981-ffca-4b5f-be3a-e178d7171652
+9c65b981-ffca-4b5f-be3a-e178d7171652,Plastic processing technology,plastic-processing-technology,0383fa41-2ed1-4abd-89ee-c9d122ab25ed
+44b679f2-e3f5-4dc6-981f-8692010771c6,Plastic profiles,plastic-profiles,0383fa41-2ed1-4abd-89ee-c9d122ab25ed
+0383fa41-2ed1-4abd-89ee-c9d122ab25ed,Plastic and Rubber,plastic-and-rubber,aa3025eb-3e28-44a6-be01-feaf6c01df35
+0c0fccc4-0660-404c-bd41-59118a90b58a,Advertising,advertising,6d6766f8-4ef5-4208-b522-9c9e6104294f
+ae989572-6222-4531-a406-94867c68eeb9,Book/Periodicals printing,book-periodicals-printing,6d6766f8-4ef5-4208-b522-9c9e6104294f
+aac3b9f0-9552-4380-be8a-2b147c0a3509,Labelling and packaging printing,labelling-and-packaging-printing,6d6766f8-4ef5-4208-b522-9c9e6104294f
+6d6766f8-4ef5-4208-b522-9c9e6104294f,Printing,printing,aa3025eb-3e28-44a6-be01-feaf6c01df35
+80184da9-d394-484a-a915-a2d6f5474f97,Clothing,clothing,0df5e2a1-20a5-437d-b44b-82b99ed0509c
+fa86deb1-531b-4b1e-9759-985641e52689,Textile,textile,0df5e2a1-20a5-437d-b44b-82b99ed0509c
+0df5e2a1-20a5-437d-b44b-82b99ed0509c,Textile and Clothing,textile-and-clothing,aa3025eb-3e28-44a6-be01-feaf6c01df35
+222fe2d8-0f50-4dfe-9d8e-aedbc487138d,Other (Wood),other-wood,161436bb-31a9-4472-856a-36b39cd35157
+72ef84db-acdf-4837-b1ae-9bace95f8321,Wooden building materials,wooden-building-materials,161436bb-31a9-4472-856a-36b39cd35157
+58699f9b-cea3-4e7c-960d-aca5fdf2a4ac,Wooden houses,wooden-houses,161436bb-31a9-4472-856a-36b39cd35157
+161436bb-31a9-4472-856a-36b39cd35157,Wood,wood,aa3025eb-3e28-44a6-be01-feaf6c01df35
+914a04d5-11c8-4d94-98d3-43f9ea76010e,Creative industries,creative-industries,f05de94e-7135-4c1b-9d45-86cb98e7d4f6
+add7065b-929e-495e-9ea5-8c105443e4aa,Energy technology,energy-technology,f05de94e-7135-4c1b-9d45-86cb98e7d4f6
+00dbd1bf-644f-4c3d-81c5-2fde29e262ad,Environment,environment,f05de94e-7135-4c1b-9d45-86cb98e7d4f6
+0e258155-57d2-4419-8870-f27bac667965,Business services,business-services,d6ef3b58-e722-477e-a3f0-e32e5bb23837
+d02ad56c-e2cc-42f4-93fd-abc54b6b6a0e,Engineering,engineering,d6ef3b58-e722-477e-a3f0-e32e5bb23837
+372d4412-b5d8-4987-b7dd-7d16e61b575e,"Data processing, Web portals, E-marketing",data-processing-web-portals-e-marketing,981ff924-285a-42ac-9f9a-6d04b0ee58e0
+b603abba-f102-4d89-a476-4c12f96aa10a,"Programming, Consultancy",programming-consultancy,981ff924-285a-42ac-9f9a-6d04b0ee58e0
+9549d297-391c-44d0-8188-5fc71c6fd343,"Software, Hardware",software-hardware,981ff924-285a-42ac-9f9a-6d04b0ee58e0
+98682abd-ddba-4562-b880-12551c338fea,Telecommunications,telecommunications,981ff924-285a-42ac-9f9a-6d04b0ee58e0
+981ff924-285a-42ac-9f9a-6d04b0ee58e0,Information Technology and Telecommunications,information-technology-and-telecommunications,d6ef3b58-e722-477e-a3f0-e32e5bb23837
+c133b159-6c8a-4d03-95c5-19ada8aad598,Tourism,tourism,d6ef3b58-e722-477e-a3f0-e32e5bb23837
+5e5755c8-bca7-4914-ba41-54e7334d86e4,Translation services,translation-services,d6ef3b58-e722-477e-a3f0-e32e5bb23837
+b465f253-d820-4024-9610-76b45ca8d602,Air,air,8d38110d-0f43-4e01-a177-56d225bd874c
+8f9e4a6c-dd04-4faf-bb22-2609c3b1c812,Rail,rail,8d38110d-0f43-4e01-a177-56d225bd874c
+e575666b-0344-45ba-ad15-09cb9f7b3bf0,Road,road,8d38110d-0f43-4e01-a177-56d225bd874c
+a35db4fc-6df0-4447-a45a-a191f59c6e5c,Water,water,8d38110d-0f43-4e01-a177-56d225bd874c
+8d38110d-0f43-4e01-a177-56d225bd874c,Transport and Logistics,transport-and-logistics,d6ef3b58-e722-477e-a3f0-e32e5bb23837

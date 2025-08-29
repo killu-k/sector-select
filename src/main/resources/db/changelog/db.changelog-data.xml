@@ -1,0 +1,15 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet author="killuk" id="1">
+            <loadData
+                file="db/data/sectors_data.csv"
+                tableName="sectors"
+                encoding="utf-8"
+                quotchar="&quot;" />
+    </changeSet>
+
+</databaseChangeLog>
