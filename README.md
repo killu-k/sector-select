@@ -19,7 +19,7 @@ Database is **PostgreSQL** and **Liquibase** for schema and data migration.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_REPO/sector-select.git
+   git https://github.com/killu-k/sector-select.git
    cd sector-select/backend
    ```
    
