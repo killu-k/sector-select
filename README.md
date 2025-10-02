@@ -1,7 +1,7 @@
 # Sector Select - Backend
 
 The backend part of the Sector Select application.  
-ASpring Boot application with REST APIs to manage **Users** and **Sectors**.
+A Spring Boot application with REST APIs to manage **Users** and **Sectors**.
 
 Database is **PostgreSQL** and **Liquibase** for schema and data migration.
 
@@ -20,10 +20,9 @@ Database is **PostgreSQL** and **Liquibase** for schema and data migration.
 
    ```bash
    git https://github.com/killu-k/sector-select.git
-   cd sector-select/backend
    ```
    
-2. Build and start the application and db:
+2. Build and start the application and db (in projects root dir):
 
    ```bash
    docker compose up --build
